@@ -1194,7 +1194,7 @@ body {
 .content {
     position: absolute;
     width: 100%;
-    bottom: -100px;
+    bottom: -85px;
     padding: 10px;
     box-sizing: border-box;
     transition: 0.5s;
