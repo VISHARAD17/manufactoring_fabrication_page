@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root{
+    --text-font:'Roboto', sans-serif;
+}
+
+body {
+    background-image: linear-gradient( to top,#1A2980, #26D0CE);
+    scroll-behavior: smooth;
+}
+
+
+.header {
+    background-color: #9edddc;
+    padding: 16px;
+}
+
+.header h1 {
+    color: #000000;
+    font-family: var(--text-font);
+    font-weight: bold;
+    letter-spacing: 2.5px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 20px 40px rgba(0, 0.5, 0.5, .7);
+    border-radius: 5px;
+    background-color: #E0E5EC;
+    overflow: hidden;
+}
+
+
+.imgbox {
+    width: 100%;
+    border: 0px;
+    object-fit: cover;
+}
+.card:hover .content {
+    bottom: 0;
+}
+
+.card .imgbox{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.card .imgbox img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    background: #E0E5EC;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.content h2 {
+    margin: 0;
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--text-font);
+    color: black;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    background-color: #c9d1d8;
+    padding: 8px 5px;
+    border-radius: 7px;
+    box-shadow: 9px 9px 16px rgba(122, 126, 133, 0.7), -9px -10px 16px rgba(216, 213, 213, 0.6);
+    overflow: hidden;
+    border: none;
+}
+
+.content p {
+    padding: 5px;
+    padding-top: 10px;
+    font-family: var(--text-font);
+    text-align: center;
+
+}
+
+.button a {
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #d4dadb;
+}
+
+.btn-a {
+    text-decoration: none;
+}
+
+.button:hover .btn-a {
+    color: #070707;
+}
+
+.service-head h1 {
+    font-size: 35px;
+    font-family: var(--text-font);
+    font-weight: bold;
+}
+
+.service-head h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.service-head {
+    margin-top: 50px;
+}
